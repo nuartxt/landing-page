@@ -65,21 +65,31 @@ header {
     flex-shrink: 0;
 }
 
+
+.conteiner_2 {
+    padding: 0px 350px;
+}
+
 .information {
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin-bottom: 100px;
+
 }
 
-.card_side{
+.information h2 {
+    margin: 50px;
+}
+
+.card_side {
     gap: 40px;
+    flex-wrap: wrap;
 }
 
-.card{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
+.card {
+    max-width: 150px;
+    text-align: center;
 }
 
 .box {
